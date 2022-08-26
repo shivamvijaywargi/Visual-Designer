@@ -8,6 +8,293 @@
     <title>Product Design Landing Page</title>
   </head>
   <body>
-    Hello World
+    <header class="container header">
+      <img src="./assets/logo.png" alt="Logo" class="header__logo" />
+      <nav class="header__nav">
+        <a class="nav__item"
+          >HOME
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+          >
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M12 16l-6-6h12z" fill="rgba(255,255,255,1)" /></svg
+        ></a>
+        <a class="nav__item">PROJECT</a>
+        <a class="nav__item">ABOUT</a>
+        <a class="nav__item">CONTACT</a>
+        <a class="nav__item"
+          >OTHER PAGE
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+          >
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M12 16l-6-6h12z" fill="rgba(255,255,255,1)" /></svg
+        ></a>
+      </nav>
+      <nav class="header__mobile">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </nav>
+    </header>
+
+    <section class="hero container">
+      <img
+        src="./assets/Untitled design (35).png"
+        alt="Arthur"
+        class="hero__img"
+      />
+      <div class="hero__details">
+        <h3 class="hero__details-name">Hello I'm Arthur</h3>
+        <h1 class="hero__details-role">Visual Designer</h1>
+        <p class="hero__details-about">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, eos.
+          Rem reprehenderit dolorem pariatur consectetur? Asperiores dolor optio
+          sint vel ea quibusdam, impedit quam debitis!
+        </p>
+        <button class="hero__details-btn btn">ABOUT ME</button>
+      </div>
+    </section>
+
+    <section class="cards cards__relative">
+      <div class="bg cards__absolute">
+        <div class="container">
+          <div class="cards-box">
+            <div class="card">
+              <img src="./assets/icon-1.svg" alt="Icon 1" class="card__img" />
+              <h2 class="card__title">UI Design</h2>
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam sapiente dolorem quis.
+              </p>
+              <p class="card__more">KNOW MORE</p>
+            </div>
+            <div class="card card__active">
+              <img src="./assets/icon-2.svg" alt="Icon 2" class="card__img" />
+              <h2 class="card__title">Product Design</h2>
+              <p class="card__text card__active__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam sapiente dolorem quis.
+              </p>
+              <p class="card__more card__active__more">KNOW MORE</p>
+            </div>
+            <div class="card">
+              <img src="./assets/icon-3.svg" alt="Icon 3" class="card__img" />
+              <h2 class="card__title">Branding</h2>
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam sapiente dolorem quis.
+              </p>
+              <p class="card__more">KNOW MORE</p>
+            </div>
+          </div>
+
+          <div class="cards-box2">
+            <div class="card2">
+              <h2 class="red__color card2__main-heading">12</h2>
+              <h3>Years Experience</h3>
+            </div>
+            <div class="card2__right">
+              <div class="card2 card2__flex">
+                <div class="card2__set1">
+                  <h2 class="red__color card2__sub-heading">60+</h2>
+                  <p>Clients</p>
+                </div>
+                <div class="card2__set2">
+                  <h2 class="red__color card2__sub-heading">122+</h2>
+                  <p>Completed Projects</p>
+                </div>
+              </div>
+              <div class="card2 card2__flex">
+                <div class="card2__set1">
+                  <h2 class="red__color card2__sub-heading">08</h2>
+                  <p>Years Experience</p>
+                </div>
+                <div class="card2__set2">
+                  <h2 class="red__color card2__sub-heading">10</h2>
+                  <p>Achievements</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container featured">
+      <div class="featured__top">
+        <div class="featured__left">
+          <h2 class="featured__left__heading font__bold__white">
+            FEATURED PROJECTS
+          </h2>
+          <p class="featured__left__para">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+        <button class="featured__btn featured__right">VIEW ALL</button>
+      </div>
+      <div class="featured__bottom">
+        <div class="featured__bottom__box">
+          <div class="featured__bottom__box__img">
+            <img
+              src="./assets/Screenshot 2022-06-25 131915.jpg"
+              alt="Featured Project 1"
+              class="featured__bottom__box-img"
+            />
+          </div>
+          <h3 class="font__bold__white">The Vintage</h3>
+          <p class="red__color featured__text">
+            KNOW MORE
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </p>
+        </div>
+        <div class="featured__bottom__box">
+          <div class="featured__bottom__box__img">
+            <img
+              src="./assets/Screenshot 2022-06-25 132031.jpg"
+              alt="Featured Project 2"
+              class="featured__bottom__box-img"
+            />
+          </div>
+          <h3 class="font__bold__white">Foodasa</h3>
+          <p class="red__color featured__text">
+            KNOW MORE
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </p>
+        </div>
+        <div class="featured__bottom__box featured__bottom__box3">
+          <div class="featured__bottom__box__img">
+            <img
+              src="./assets/Screenshot 2022-06-25 133016.jpg"
+              alt="Featured Project 3"
+              class="featured__bottom__box-img"
+            />
+          </div>
+          <h3 class="font__bold__white">Marco Accent</h3>
+          <p class="red__color featured__text">
+            KNOW MORE
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </p>
+        </div>
+        <div class="featured__bottom__box">
+          <div class="featured__bottom__box__img">
+            <img
+              src="./assets/Screenshot 2022-06-25 133426.jpg"
+              alt="Featured Project 4"
+              class="featured__bottom__box-img"
+            />
+          </div>
+          <h3 class="font__bold__white">Mozaik</h3>
+          <p class="red__color featured__text">
+            KNOW MORE
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work container">
+      <div class="work__left">
+        <h2 class="font__bold__white">
+          Let's work together on your next project
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aut
+          praesentium omnis laboriosam magnam tenetur ea sapiente maiores!
+        </p>
+      </div>
+      <div class="work__right">
+        <button>CONTACT</button>
+      </div>
+    </section>
+
+    <section class="links">
+      <p class="color__white">HOME</p>
+      <p class="color__white">ABOUT</p>
+      <p class="color__white">PROJECTS</p>
+      <p class="color__white">CONTACT</p>
+    </section>
+    <footer class="footer">
+      <div class="container footer__section">
+        <div class="footer__logo">
+          <img src="./assets/logo.png" alt="Logo" />
+        </div>
+        <div class="footer__social">
+          <img src="./assets/fb.svg" alt="Facebook" />
+          <img src="./assets/twitter.svg" alt="Twitter" />
+          <img src="./assets/yt.svg" alt="Youtube" />
+        </div>
+        <div class="footer__blank"></div>
+      </div>
+    </footer>
   </body>
 </html>
